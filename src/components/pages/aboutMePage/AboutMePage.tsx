@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react"
 import './AboutMePage.scss'
 import NavBar from "./components/navbar/NavBar";
 import { ABOUT_ME } from "../../../model/model";
-import ScrollToHashElement from "./ScrollToHashElement";
 
 const AboutMePage: React.FC<any> = () => {
     const mailTo: string = `mailto: ${ABOUT_ME.aboutMe.mail}`
@@ -90,7 +89,6 @@ const AboutMePage: React.FC<any> = () => {
 
     return (
         <section className="aboutMePage" id="aboutMePage">
-            <ScrollToHashElement />
             <NavBar></NavBar>
 
             <div id="aboutMeSection" className="aboutMeSection">
@@ -182,10 +180,10 @@ const AboutMePage: React.FC<any> = () => {
                     <li className="listItemTest">Traduction d'un problème en cahier des charges</li>
                         <li className="listItemTest">Prise d’initiative et leadership</li>
                         <li className="listItemTest">Ne craint pas les conditions de travail difficiles </li>
-                        <li className="listItemTest">Travail d'equipe et répartition des tâches</li>
-                        <li className="listItemTest">Volonter d'apprendre et de mettre en oeuvre</li>
+                        <li className="listItemTest">Travail d'équipe et répartition des tâches</li>
+                        <li className="listItemTest">Volonté d'apprendre et de mettre en oeuvre</li>
                     </ul>
-                    <p className="futureP futureP2">Evidemment tout cela ne remplace pas les qualités et l’expérience que certaines personnes ont acquit dans leur domaine. Au fil du temps, j’ai pu rencontrer un tas de personne dans différents milieux professionnels qui m’ont inspirés pour essayer d’évoluer vers une meilleurs version de moi-même. Des qualités telles que le bon étalement de la charge de travail ou encore la capacité de refuser certaines opportunités pour se concentrer sur d’autre sont des pistes d’amélioration pour mon futur.</p>
+                    <p className="futureP futureP2">Evidemment tout cela ne remplace pas les qualités et l’expérience que certaines personnes ont acquit dans leur domaine. Au fil du temps, j’ai pu rencontrer un tas de personnes dans différents milieux professionnels qui m’ont inspirés pour essayer d’évoluer vers une meilleur version de moi-même. Des qualités telles que le bon étalement de la charge de travail ou encore la capacité de refuser certaines opportunités pour se concentrer sur d’autre sont des pistes d’amélioration pour mon futur.</p>
                     <p className="futureP futureP3">J’ai hâte de rentrer dans la vie active dès l’obtention de mon diplôme d’électromécanique tout en gardant en tête de réaliser un master en cours du soir ou en alternance dans quelques années en fonctions des différentes opportunités que j’aurai pu saisir d’ici-là.</p>
                 </div>
             </div>

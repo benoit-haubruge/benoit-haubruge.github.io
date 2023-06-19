@@ -1,4 +1,4 @@
-import { Link, Navigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './NavBar.scss'
 
 const NavBar: React.FC<any> = () => {
@@ -9,7 +9,7 @@ const NavBar: React.FC<any> = () => {
             <li className='navbarLink'><a href="/#formationSection">Education</a></li>
             <li className='navbarLink'><a href="/#experienceSection">Experiences pro</a></li>
             <li className='navbarLink'><a href="/#otherSection">Passion & loisirs</a></li>
-            <li className='navbarLink'><a href="/visites">Visites d'entreprises</a></li>
+            <li className='navbarLink'><Link to="/visites">Visites d'entreprises</Link></li>
             <li className='navbarLink'><a href={require('./cv.pdf')} target='_blank' rel='noopener noreferrer'>CV</a></li>
             <li className='navbarLink'><a href={require('./../../tfe.pdf')} target='_blank' rel='noopener noreferrer'>TFE</a></li>
         </ul>
