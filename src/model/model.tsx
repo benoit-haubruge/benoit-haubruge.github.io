@@ -12,7 +12,7 @@ export const ABOUT_ME: any = {
         },
         "nationality": "Belge",
         "birthday": "31 mars 1999",
-        "description" : "Etudiant en électromécanique, je passe beaucoup de mon temps à travailler en parallèle de mes études. Je me passionne notamment pour les engins de récolte, l’aviation militaire et la course automobile.",
+        "description" : "Etudiant en électromécanique, je passe beaucoup de mon temps à travailler en parallèle de mes études. Je me passionne notamment pour les machines agricoles de récolte, l’aviation militaire et la course automobile.",
         "perspective" : "Etudiant en electromecanique, je passse beaucoup de temps a travailler en parallele de mes etudes et je me passionne pour les engins de recolte, les engins de chantier, la course automobile et l'aviation.",
         "experience" : [
             {
@@ -65,12 +65,12 @@ export const ABOUT_ME: any = {
             }
         ],
         "skills": [
-            "Gestion de groupes et planification d'activites",
-            "Communication au sein d'une equipe",
-            "Experience dans l'entretien des machines agricoles",
+            "Gestion de groupes et planification d'activités",
+            "Communication au sein d'une équipe",
+            "Expérience dans l'entretien des machines agricoles",
             "Bon contact client",
-            "Maitrise de office (word, excel, etc.)",
-            "Permis B et vehicule",
+            "Maitrise de la suite Office (word, excel, etc.)",
+            "Permis B et véhicule",
             "Autocad réalisation de plans",
             "Inventor conception 3D",
             "Scilab logiciel de régulation"
@@ -81,7 +81,7 @@ export const ABOUT_ME: any = {
                 "level": "Langue maternelle"
             },
             {
-                "tilte": "Neerlandais",
+                "tilte": "Néerlandais",
                 "level": "B1"
             },
             {
@@ -91,23 +91,23 @@ export const ABOUT_ME: any = {
         ],
         "others": [
             {
-                "title": "Mecanique velo",
-                "description": "reparation, montage, entretiens"
+                "title": "Mécanique vélo",
+                "description": "réparation, montage, entretiens"
             },
             {
                 "title": "",
                 "description": ""
             },
             {
-                "title": "Mecanique automobile",
+                "title": "Mécanique automobile",
                 "description": "Ecam Racing Team. 24h 2cv Spa Francorchamps"
             },
             {
-                "title": "Athlete investi",
-                "description": "3e des champions de belgiaue sur 400m en 2018"
+                "title": "Athlète investi",
+                "description": "3e des champions de belgique sur 400m en 2018"
             },
             {
-                "title": "Mecanique agricole",
+                "title": "Mécanique agricole",
                 "description": ""
             },
             {

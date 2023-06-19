@@ -135,12 +135,12 @@ const AboutMePage: React.FC<any> = () => {
                         })}
                     </div>
                 </div>
-                <a className="tfeDownload" href={require('./tfe.pdf')} download="tfe-benoit-haubruge">TFE</a>
+                <a className="tfeDownload" href={require('./tfe.pdf')} target='_blank' rel='noopener noreferrer'>TFE</a>
                 <p className="tfeDescription">Travail de fin d’étude réalisé au sein de l’entreprise Degroote Solutions, à Nivelles en 2023, portant sur la conception du système de commande et de contrôle hydraulique d’une remorque auto-chargeuse tractée.</p>
             </div>
             
             <div id="experienceSection" className="experienceSection">
-                <h2 className="experienceSectionTitle">Experiences professionnelles</h2>
+                <h2 className="experienceSectionTitle">Expériences professionnelles</h2>
                 <div className="experienceList">
                     {ABOUT_ME.aboutMe.experience.map((formation: any) => {
                         return (
@@ -183,7 +183,7 @@ const AboutMePage: React.FC<any> = () => {
                         <li className="listItemTest">Travail d'equipe et répartition des tâches</li>
                         <li className="listItemTest">Volonter d'apprendre et de mettre en oeuvre</li>
                     </ul>
-                    <p className="futureP futureP2">Evidemment tout cela ne remplace pas les qualités et l’expérience que certains ont dans leur domaine. Au fil du temps, j’ai pu rencontrer un tas de personne dans différents milieux professionnels qui m’ont inspirés pour essayer d’évoluer vers une meilleurs version de moi-même. Des qualités telles que le bon étalement de la charge de travail ou encore la capacité de refuser certaine opportunités pour se concentrer sur d’autre sont des pistes d’amélioration pour mon futur.</p>
+                    <p className="futureP futureP2">Evidemment tout cela ne remplace pas les qualités et l’expérience que certaines personnes ont acquit dans leur domaine. Au fil du temps, j’ai pu rencontrer un tas de personne dans différents milieux professionnels qui m’ont inspirés pour essayer d’évoluer vers une meilleurs version de moi-même. Des qualités telles que le bon étalement de la charge de travail ou encore la capacité de refuser certaines opportunités pour se concentrer sur d’autre sont des pistes d’amélioration pour mon futur.</p>
                     <p className="futureP futureP3">J’ai hâte de rentrer dans la vie active dès l’obtention de mon diplôme d’électromécanique tout en gardant en tête de réaliser un master en cours du soir ou en alternance dans quelques années en fonctions des différentes opportunités que j’aurai pu saisir d’ici-là.</p>
                 </div>
             </div>
