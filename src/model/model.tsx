@@ -13,53 +13,53 @@ export const ABOUT_ME: any = {
         "nationality": "Belge",
         "birthday": "31 mars 1999",
         "description" : "Etudiant en électromécanique, je passe beaucoup de mon temps à travailler en parallèle de mes études. Je me passionne notamment pour les machines agricoles de récolte, l’aviation militaire et la course automobile.",
-        "perspective" : "Etudiant en electromecanique, je passse beaucoup de temps a travailler en parallele de mes etudes et je me passionne pour les engins de recolte, les engins de chantier, la course automobile et l'aviation.",
+        "perspective" : "Etudiant en electromecanique, je passse beaucoup de temps a travailler en parallele de mes etudes et je me passionne pour les engins de récolte, les engins de chantier, la course automobile et l'aviation.",
         "experience" : [
             {
                 "title": "Grande distribution",
-                "description": "Mise en rayon, gestion des stocks, caisse, formation boulangerie, fruits et legumes.",
-                "place": "Proxy Delhaize saintMichel",
+                "description": "Mise en rayon, gestion des stocks, caisse, formation boulangerie, fruits et légumes.",
+                "place": "Proxy Delhaize Saint Michel",
                 "start": 2020,
                 "end": null,
             },
             {
-                "title": "Mecanicien de tracteurs et machines agricoles",
-                "description": "Entrtien des machines de recolte, preparation pour les semis, reparation a l'atelier et sur les champs, Modifications en vue d'ameliorations, conception de pieces et montage complet.",
+                "title": "Mécanicien de tracteurs et machines agricoles",
+                "description": "Entretien des machines de récolte, préparation pour les semis, réparation a l'atelier et sur les champs, Modifications en vue d'améliorations, conception de pièces et montage complet.",
                 "place": "Entrepreneur A.Degroote",
                 "start": 2019,
                 "end": null,
             },
             {
                 "title": "Animateur sportif",
-                "description": "Animation de stages pour enfants de moins de 12 ans. Preparation des activites et gestion de groupes",
+                "description": "Animation de stages pour enfants de moins de 12 ans. Préparation des activités et gestion de groupes",
                 "place": "Action Sport",
                 "start": 2016,
                 "end": 2019,
             },
             {
-                "title": "Assistant de gestion de cmmerce",
-                "description": "Preparation des commandes et livraisons, gestion des stocks et arrivages, entretiens des inventaires, conseils clients, demonstration de modelisme",
-                "place": "16e escadron",
+                "title": "Assistant de gestion de commerce",
+                "description": "Préparation des commandes et livraisons, gestion des stocks et arrivages, entretiens des inventaires, conseils clients, démonstration de modelisme",
+                "place": "16e Escadron",
                 "start": 2015,
                 "end": 2018,
             }
         ],
         "formation": [
             {
-                "title": "Bachelier en electromecanique",
+                "title": "Bachelier en électromecanique",
                 "place": "ISAT-EPHEC",
-                "start": "Decembre 2021",
+                "start": "Décembre 2021",
                 "end": null
             },
             {
-                "title": "Ingenieur industriel en construction",
+                "title": "Ingénieur industriel en construction",
                 "place": "ECAM",
                 "start": "Septembre 2018",
                 "end": "Juin 2021"
             },
             {
                 "title": "CESS",
-                "place": "College Saint Michel - Option Schiences et Mathematiques",
+                "place": "Collège Saint Michel - Option Sciences et Mathématiques",
                 "start": "Septembre 2012",
                 "end": "Juin 2018"
             }
