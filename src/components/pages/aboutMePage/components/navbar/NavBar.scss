@@ -9,14 +9,20 @@
     justify-content: space-around;
     text-decoration: none;
     list-style-type: none;
-    color: black;
-    background-color: var(--color-green);
+    color: var(--color-white);
+    background-color: var(--color-light-black);
 }
 
 .navbarLink {
     width: 100%;
     text-align: center;
-    border-right: 2px black solid;
+    border-right: 2px var(--color-white) solid;
+    font-weight: bold;
+}
+
+.navbar li a {
+    color: var(--color-white);
+    all: none;
 }
 
 li:last-child {
