@@ -6,7 +6,7 @@ import { ABOUT_ME } from "../../../model/model";
 const VisitePage: React.FC<any> = () => {
     const companyImages = [
         require("./siemens2.webp"),
-        require("./agoria2.jpeg"),
+        require("./agoria_logo.jpeg"),
         require("./defense2.jpeg")
     ]
     const schoolImages = [
@@ -87,7 +87,7 @@ const VisitePage: React.FC<any> = () => {
         <>
         <NavBar></NavBar>
             <div className="visitSection">
-                <h2 className="visitSectionTitle">Visits</h2>
+                <h2 className="visitSectionTitle">Visites d'entreprises</h2>
                 <div className="visitList">
                     {ABOUT_ME.aboutMe.companyVisits.map((formation: any, index:number) => {
                         return (

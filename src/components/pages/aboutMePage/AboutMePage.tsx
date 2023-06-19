@@ -30,20 +30,20 @@ const AboutMePage: React.FC<any> = () => {
 
     const MINUTE_MS = 5000;
 
-    useEffect(() => {
-    const interval = setInterval(() => {
-        console.log('Logs every minute');
-        changePP()
-    }, MINUTE_MS);
+    // useEffect(() => {
+    // const interval = setInterval(() => {
+    //     console.log('Logs every minute');
+    //     changePP()
+    // }, MINUTE_MS);
 
-    return () => clearInterval(interval); // This represents the unmount function, in which you need to clear your interval to prevent memory leaks.
-    }, [])
+    // return () => clearInterval(interval); // This represents the unmount function, in which you need to clear your interval to prevent memory leaks.
+    // }, [])
 
-    const changePP = () => {
-        const tmp = (index + 1) % ppList.length;
-        setPP(ppList[tmp]);
-        setIndex(tmp);
-    }
+    // const changePP = () => {
+    //     const tmp = (index + 1) % ppList.length;
+    //     setPP(ppList[tmp]);
+    //     setIndex(tmp);
+    // }
 
     const test = [
     <img src={ppList[0]}></img>, <img src={ppList[1]}></img>]
@@ -51,7 +51,7 @@ const AboutMePage: React.FC<any> = () => {
 
     const [shifted, setShifted] = useState<number>(0);
     const [index, setIndex] = useState<number>(0);
-    const [pp, setPP] = useState(ppList[1]);
+    const [pp, setPP] = useState(ppList[0]);
 
     const forward = (event: any) => {
         event.preventDefault();
@@ -97,7 +97,6 @@ const AboutMePage: React.FC<any> = () => {
                     <img className="aboutMePP" src={pp}></img>
                     <p>{ABOUT_ME.aboutMe.description}</p>
                 </div>
-                <p className="aboutMeSectionPerspective">{ABOUT_ME.aboutMe.perspective}</p>
             </div>
 
             
@@ -137,7 +136,7 @@ const AboutMePage: React.FC<any> = () => {
                     </div>
                 </div>
                 <a className="tfeDownload" href={require('./tfe.pdf')} download="tfe-benoit-haubruge">TFE</a>
-                <p className="tfeDescription">travail de fin d etude realise au sein de l entreprise degroote solution en 2023 portant sur la conception du systeme de commande et de controle hydrauliaue d une remorque auto chargeuse tractee.</p>
+                <p className="tfeDescription">Travail de fin d’étude réalisé au sein de l’entreprise Degroote Solutions, à Nivelles en 2023, portant sur la conception du système de commande et de contrôle hydraulique d’une remorque auto-chargeuse tractée.</p>
             </div>
             
             <div id="experienceSection" className="experienceSection">
@@ -173,6 +172,22 @@ const AboutMePage: React.FC<any> = () => {
                 </div>
             </div>
 
+            <div id="futureSection" className="futureSection">
+            <h2 className="futureSectionTitle">Mes atouts et mon futur professionnel</h2>
+                <div className="futureSubSection"> 
+                    <p className="futureP futureP1">J’ai la chance d’avoir pu emmagasiner pas mal d’expérience dans divers métier manuel tel que la mécanique agricole, les réparation et entretiens de vélo ainsi que les entretiens de jardins. Mes principales qualités sont les suivantes :</p>
+                    <ul className="listTest">
+                    <li className="listItemTest">Traduction d'un problème en cahier des charges</li>
+                        <li className="listItemTest">Prise d’initiative et leadership</li>
+                        <li className="listItemTest">Ne craint pas les conditions de travail difficiles </li>
+                        <li className="listItemTest">Travail d'equipe et répartition des tâches</li>
+                        <li className="listItemTest">Volonter d'apprendre et de mettre en oeuvre</li>
+                    </ul>
+                    <p className="futureP futureP2">Evidemment tout cela ne remplace pas les qualités et l’expérience que certains ont dans leur domaine. Au fil du temps, j’ai pu rencontrer un tas de personne dans différents milieux professionnels qui m’ont inspirés pour essayer d’évoluer vers une meilleurs version de moi-même. Des qualités telles que le bon étalement de la charge de travail ou encore la capacité de refuser certaine opportunités pour se concentrer sur d’autre sont des pistes d’amélioration pour mon futur.</p>
+                    <p className="futureP futureP3">J’ai hâte de rentrer dans la vie active dès l’obtention de mon diplôme d’électromécanique tout en gardant en tête de réaliser un master en cours du soir ou en alternance dans quelques années en fonctions des différentes opportunités que j’aurai pu saisir d’ici-là.</p>
+                </div>
+            </div>
+
             <div className="contactMeList">
                 <div className="contactMeItem">
                     <img className="contactMeLogo" src={require("./email.png")}></img>
@@ -188,6 +203,10 @@ const AboutMePage: React.FC<any> = () => {
                     <img className="contactMeLogo" src={require("./address.png")}></img>
                     <p>Adresse</p>
                     <a href={adresseLink} target="_blank">{adresse}</a>
+                </div>
+                <div className="contactMeItem reseauxItem">
+                    <a href="https://www.facebook.com/benoit.haubruge" target="_blank"><img className="contactMeLogo" src={require("./facebook.png")}></img></a>
+                    <a href="https://www.linkedin.com/in/benoit-haubruge-b544a6192/" target="_blank"><img className="contactMeLogo" src={require("./linkedin.png")}></img></a>
                 </div>
             </div>
         </section>

@@ -12,7 +12,7 @@ export const ABOUT_ME: any = {
         },
         "nationality": "Belge",
         "birthday": "31 mars 1999",
-        "description" : "Etudiant en electromecanique, je passse beaucoup de temps a travailler en parallele de mes etudes et je me passionne pour les engins de recolte, les engins de chantier, la course automobile et l'aviation.",
+        "description" : "Etudiant en électromécanique, je passe beaucoup de mon temps à travailler en parallèle de mes études. Je me passionne notamment pour les engins de récolte, l’aviation militaire et la course automobile.",
         "perspective" : "Etudiant en electromecanique, je passse beaucoup de temps a travailler en parallele de mes etudes et je me passionne pour les engins de recolte, les engins de chantier, la course automobile et l'aviation.",
         "experience" : [
             {
@@ -70,7 +70,10 @@ export const ABOUT_ME: any = {
             "Experience dans l'entretien des machines agricoles",
             "Bon contact client",
             "Maitrise de office (word, excel, etc.)",
-            "Permis B et vehicule"
+            "Permis B et vehicule",
+            "Autocad réalisation de plans",
+            "Inventor conception 3D",
+            "Scilab logiciel de régulation"
         ],
         "languages": [
             {
@@ -92,12 +95,12 @@ export const ABOUT_ME: any = {
                 "description": "reparation, montage, entretiens"
             },
             {
-                "title": "Jardinier",
-                "description": "Taille de haies et entretien de jardins"
+                "title": "",
+                "description": ""
             },
             {
                 "title": "Mecanique automobile",
-                "description": ""
+                "description": "Ecam Racing Team. 24h 2cv Spa Francorchamps"
             },
             {
                 "title": "Athlete investi",
@@ -106,24 +109,28 @@ export const ABOUT_ME: any = {
             {
                 "title": "Mecanique agricole",
                 "description": ""
+            },
+            {
+                "title": "Mouvements de jeunesse",
+                "description": "Animateur depuis 2018"
             }
         ],
         "companyVisits": [
             {
                 "companyName": "Siemens Healtheneers",
-                "description": "Here is the description of the companyHere is the description of the companyHere is the description of the companyHere is the description of the companyHere is the description of the companyHere is the description of the companyHere is the description of the companyHere is the description of the companyHere is the description of the companyHere is the description of the companyHere is the description of the company",
+                "description": "Nous avons visité les nouveau bureau à Anderlecht. Lors de la visite nous avons découvert l’entreprise et ce qu’elle fait dans le monde mais nous avons également eu la chance d’avoir une interview avec deux techniciens sorti également de l’Isat il y a 3ans environ. Cette interview m’a permis de comprendre la journée type et les enjeux d’un technicien chez siemens healthineers et de découvrir les perspective de carrière dans de telle société.",
                 "image": "./siemens.jpeg",
                 "color": "var(--color-green)"
             },
             {
                 "companyName": "Agoria",
-                "description": "Here is the description of the companyHere is the description of the companyHere is the description of the companyHere is the description of the companyHere is the description of the companyHere is the description of the companyHere is the description of the companyHere is the description of the companyHere is the description of the companyHere is the description of the companyHere is the description of the company",
+                "description": "Présentation en ligne lors de la période Covid. On a pu découvrir les différents domaines dans lesquels Agoria est présent. La partie transport et déplacement a particulièrement retenue mon attention.",
                 "image": "./agoria2.jpeg",
                 "color": "#6699CC"
             },
             {
-                "companyName": "La defense aerienne",
-                "description": "Here is the description of the companyHere is the description of the companyHere is the description of the companyHere is the description of the companyHere is the description of the companyHere is the description of the companyHere is the description of the companyHere is the description of the companyHere is the description of the companyHere is the description of the companyHere is the description of the company",
+                "companyName": "La Defense aerienne",
+                "description": "JobDay à La Défense sur la base de Melsbroek au 15e Wing. Étant passionné depuis toujours par la composante air, j’ai pu retourner en 2022 sur la base aérienne pour découvrir les futurs installations construites spécialement pour l’arrivée des A400M. Ce réaménagement complet et ces nouveaux appareils nécessitent le recrutement de nouveaux techniciens et responsables d’atelier. Les options de carrières sont nombreuses à La Défense avec un diplôme comme le notre.",
                 "image": "./defense.avif",
                 "color": "var(--color-cyan)"
             }
