@@ -118,7 +118,7 @@ export const ABOUT_ME: any = {
         "companyVisits": [
             {
                 "companyName": "Siemens Healtheneers",
-                "description": "Nous avons visité les nouveau bureau à Anderlecht. Lors de la visite nous avons découvert l’entreprise et ce qu’elle fait dans le monde mais nous avons également eu la chance d’avoir une interview avec deux techniciens sorti également de l’Isat il y a 3ans environ. Cette interview m’a permis de comprendre la journée type et les enjeux d’un technicien chez siemens healthineers et de découvrir les perspective de carrière dans de telle société.",
+                "description": "Nous avons visité les nouveaux bureaux à Anderlecht. Lors de la visite nous avons découvert l’entreprise et ce qu’elle fait dans le monde mais nous avons également eu la chance d’avoir une interview avec deux techniciens également sortis de l’Isat il y a 3ans environ. Cette interview m’a permis de comprendre la journée type et les enjeux d’un technicien chez Siemens Healthineers et de découvrir les perspectives de carrière dans de telles sociétés.",
                 "image": "./siemens.jpeg",
                 "color": "var(--color-green)"
             },
