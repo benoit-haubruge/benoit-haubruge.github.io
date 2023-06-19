@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react"
 import './AboutMePage.scss'
 import NavBar from "./components/navbar/NavBar";
 import { ABOUT_ME } from "../../../model/model";
+import ScrollToHashElement from "./ScrollToHashElement";
 
 const AboutMePage: React.FC<any> = () => {
     const mailTo: string = `mailto: ${ABOUT_ME.aboutMe.mail}`
@@ -89,6 +90,7 @@ const AboutMePage: React.FC<any> = () => {
 
     return (
         <section className="aboutMePage" id="aboutMePage">
+            <ScrollToHashElement />
             <NavBar></NavBar>
 
             <div id="aboutMeSection" className="aboutMeSection">
