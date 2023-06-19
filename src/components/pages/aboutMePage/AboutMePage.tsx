@@ -135,7 +135,7 @@ const AboutMePage: React.FC<any> = () => {
                         })}
                     </div>
                 </div>
-                <a className="tfeDownload" href={require('./tfe.pdf')} target='_blank' rel='noopener noreferrer'>TFE</a>
+                <a className="tfeDownload" href={require('./tfe.pdf')} target='_blank' rel='noopener noreferrer'>Mon TFE</a>
                 <p className="tfeDescription">Travail de fin d’étude réalisé au sein de l’entreprise Degroote Solutions, à Nivelles en 2023, portant sur la conception du système de commande et de contrôle hydraulique d’une remorque auto-chargeuse tractée.</p>
             </div>
             

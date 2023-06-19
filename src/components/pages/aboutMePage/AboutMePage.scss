@@ -282,15 +282,21 @@ h2 {
 }
 
 .tfeDownload {
-    width: 150px;
+    width: 250px;
     height: 80px;
-    background-color: var(--color-white);
+    //background-color: var(--color-white);
     border: 3px var(--color-black) solid;
     color: var(--color-black);
     text-align: center;
     line-height: 80px;
     font-weight: bold;
     font-size: 35px;
+    backdrop-filter: blur(30px);
+}
+
+.tfeDownload:hover {
+    box-shadow: 10px 10px 10px black;
+    transform: translateY(-10px);
 }
 
 .tfeDescription {
@@ -335,7 +341,7 @@ h2 {
     box-shadow: 5px 5px 10px black;
     padding: 20px;
     margin: 50px;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(30px);
 }
 
 .experienceItemTitle {
@@ -351,12 +357,13 @@ h2 {
 
 .experienceItemPlace {
     font-weight: bold;
-    color: var(--color-cyan);
+    color: rgb(172, 62, 35);// rgb(88, 127, 16);
 }
 
 .experienceItemStart {
+    font-style: italic;
     font-weight: bold;
-    color: var(--color-green);
+    color: rgb(172, 62, 35);// rgb(88, 127, 16);// rgb(172, 62, 35);
 }
 
 // VISIT

@@ -20,7 +20,7 @@ export const ABOUT_ME: any = {
                 "description": "Mise en rayon, gestion des stocks, caisse, formation boulangerie, fruits et légumes.",
                 "place": "Proxy Delhaize Saint Michel",
                 "start": 2020,
-                "end": null,
+                "end": 2023,
             },
             {
                 "title": "Mécanicien de tracteurs et machines agricoles",
